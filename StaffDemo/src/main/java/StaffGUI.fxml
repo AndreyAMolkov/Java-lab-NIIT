@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane prefHeight="869.0" prefWidth="1407.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers">
+   <children>
+      <Pane fx:id="paneStart" layoutX="-16.0" layoutY="-5.0" prefHeight="879.0" prefWidth="1423.0">
+         <children>
+            <Button fx:id="buttonStart" layoutX="14.0" layoutY="660.0" mnemonicParsing="false" onAction="#onClickStart" prefHeight="25.0" prefWidth="672.0" text="Расчет" />
+            <TextArea layoutX="695.0" layoutY="6.0" prefHeight="658.0" prefWidth="574.0" text="Лабораторный практикум №4&#10;Проект StaffDemo&#10;Иерархия классов&#10;Разработать иерархию классов в соответствии с диаграммой:&#10;&#10;&#10;&#10;Перечень классов:&#10;&#10;Employee - работник. Основной родительский класс для всех разновидностей работников.&#10;Pesonal - работник по найму с оплатой за фактически отработанное время. Имеет ставку за час.&#10;Engineer - инженер. Имеет ставку и оплату за час + бонусы от выполняемого проекта.&#10;Manager - менеджер. Оплату получает из денег проекта, которым руководит.&#10;Cleaner - уборщица.&#10;Driver - водитель.&#10;Programmer - инженер-программист.&#10;TeamLeader - ведущий программист.&#10;Tester - инженер по тестированию.&#10;ProjectManager - проектный менеджер.&#10;SeniorManager - руководитель направления.&#10;Перечень интерфейсов:&#10;&#10;WorkTime - расчет оплаты исходя из отработанного времени (часы умножаются на ставку).&#10;Project - расчет оплаты исходя из участия в проекте (бюджет проекта делится пропорционально&#10; персональному вкладу).&#10;Heading - расчет оплаты исходя из руководства (количество подчиненных).&#10;Класс Employee&#10;Этот, наиболее важный класс, должен содержать поля:&#10;&#10;id - идентификационный номер.&#10;name - ФИО.&#10;worktime - отработанное время.&#10;payment - заработная плата.&#10;Заработная плата работникам начисляется, исходя из должности, почасовой ставки и участию &#10;в проектах.&#10;&#10;Файл данных&#10;Подготовить текстовый файл со списком сотрудников. Информация о каждом сотруднике &#10;должна включать:&#10;&#10;&#10;id - идентификационный номер.&#10;name - ФИО сотрудника.&#10;position - должность.&#10;base - базовая ставка руб./час (если нужна).&#10;project - название проекта (если нужен).&#10;Приложение&#10;Написать демонстрационное приложение, которое создает штат сотрудников на основе &#10;данных из текстового файла и рассчитывает им зарплату, исходя из отработанного времени&#10; и участия в проектах. Информация о сотрудниках, об отработанном времени и&#10; заработной плате выводится на экран в виде таблицы." />
+            <TableView fx:id="tableViewData" layoutX="24.0" layoutY="3.0" prefHeight="651.0" prefWidth="672.0">
+               <columns>
+                  <TableColumn fx:id="tbcId" prefWidth="75.0" text="ID" />
+                  <TableColumn fx:id="tbcName" prefWidth="207.0" text="Фамилия Имя Отчество" />
+                  <TableColumn fx:id="tbcPosition" prefWidth="87.0" text="Должность" />
+                  <TableColumn fx:id="tbcBasePerHour" prefWidth="90.0" text="Ставка в час" />
+                  <TableColumn fx:id="tbcProject" prefWidth="107.0" text="Проект" />
+                  <TableColumn fx:id="tbcTime" prefWidth="102.0" resizable="false" text="Рабочее время" />
+               </columns>
+            </TableView>
+         </children>
+      </Pane>
+      <Pane fx:id="panePayment" layoutX="2.0" layoutY="-1.0" prefHeight="740.0" prefWidth="766.0">
+         <children>
+            <TableView fx:id="tableViewPayment" prefHeight="658.0" prefWidth="1349.0">
+               <columns>
+                  <TableColumn fx:id="tbpId" prefWidth="62.0" text="ID" />
+                  <TableColumn fx:id="tbpName" prefWidth="203.0" text="Фамилия Имя Отчество" />
+                  <TableColumn fx:id="tbpPosition" prefWidth="110.0" text="Должность" />
+                  <TableColumn fx:id="tbpBasePerHour" text="Ставка в час" />
+                  <TableColumn fx:id="tbpTime" prefWidth="95.0" text="Рабочее время" />
+                  <TableColumn fx:id="tbpProject" prefWidth="96.0" text="Проект" />
+                  <TableColumn fx:id="tbpNumberSubordinates" prefWidth="135.0" text="Кол-во подчиненных" />
+                  <TableColumn fx:id="tbpRateFromManagingOfTeam" prefWidth="152.0" text="Ставка за подчиненного" />
+                  <TableColumn fx:id="tbpHeadingBonus" prefWidth="145.0" text="Бонус за подчиненных" />
+                  <TableColumn fx:id="tbpBonus" prefWidth="104.0" text="Бонус" />
+                  <TableColumn fx:id="tbpPayment" maxWidth="100.0" prefWidth="100.0" text="Зарплата" />
+                  <TableColumn fx:id="tbpSubordinates" maxWidth="100.0" prefWidth="99.0" text="Подчиненные" />
+               </columns>
+            </TableView>
+            <Button fx:id="buttonBack" layoutX="11.0" layoutY="658.0" maxWidth="1.7976931348623157E308" minWidth="-Infinity" mnemonicParsing="false" onAction="#onClickBack" prefHeight="9.0" prefWidth="731.0" text="Начало" />
+         </children>
+      </Pane>
+   </children>
+</Pane>

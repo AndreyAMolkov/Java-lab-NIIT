@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="pane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controls">
+   <children>
+      <Pane prefHeight="633.0" prefWidth="626.0">
+         <children>
+            <HBox layoutX="67.0" layoutY="94.0" prefHeight="92.0" prefWidth="391.0">
+               <children>
+                  <TextField fx:id="textFieldHour" alignment="CENTER" prefHeight="92.0" prefWidth="117.0" promptText="hour" text="00">
+                     <opaqueInsets>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </opaqueInsets>
+                     <font>
+                        <Font size="42.0" />
+                     </font></TextField>
+                  <TextField fx:id="textFieldMin" alignment="CENTER" prefHeight="92.0" prefWidth="124.0" promptText="min" text="00">
+                     <opaqueInsets>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </opaqueInsets>
+                     <font>
+                        <Font size="42.0" />
+                     </font></TextField>
+                  <TextField fx:id="textFieldSec" alignment="CENTER" prefHeight="92.0" prefWidth="101.0" text="00">
+                     <opaqueInsets>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </opaqueInsets>
+                     <font>
+                        <Font size="42.0" />
+                     </font></TextField>
+               </children>
+            </HBox>
+            <TextArea fx:id="textAreaServer" layoutX="13.0" layoutY="41.0" prefHeight="25.0" prefWidth="100.0" promptText="server" />
+            <Label layoutX="173.0" layoutY="15.0" text="Socket" />
+            <TextArea fx:id="textAreaSocket" layoutX="141.0" layoutY="42.0" prefHeight="25.0" prefWidth="100.0" promptText="soket" />
+            <Button fx:id="callServerTime" layoutX="474.0" layoutY="94.0" mnemonicParsing="false" onAction="#onClickCallServerTime" prefHeight="36.0" prefWidth="112.0" text="Get Time" />
+            <TextField fx:id="textFieldInfo" layoutX="259.0" layoutY="42.0" prefHeight="25.0" prefWidth="164.0" text="status" />
+            <Label layoutX="36.0" layoutY="15.0" prefHeight="17.0" prefWidth="49.0" text="Server" />
+            <TextField fx:id="textFieldDate" alignment="CENTER" layoutX="67.0" layoutY="197.0" prefHeight="105.0" prefWidth="341.0" text="00-00-00">
+               <font>
+                  <Font size="50.0" />
+               </font>
+            </TextField>
+            <Button fx:id="callServerWisdom" layoutX="465.0" layoutY="360.0" mnemonicParsing="false" onAction="#onClickCallServerWisdom" prefHeight="25.0" prefWidth="130.0" text="a random wisdom" />
+            <TextArea fx:id="textAreaWisdom" layoutX="61.0" layoutY="360.0" prefHeight="62.0" prefWidth="397.0" promptText="wisdom" wrapText="true" />
+            <ComboBox fx:id="comboBoxExchange1" layoutX="50.0" layoutY="484.0" prefHeight="36.0" prefWidth="90.0" />
+            <ComboBox fx:id="comboBoxExchange2" layoutX="50.0" layoutY="531.0" prefHeight="36.0" prefWidth="90.0" />
+            <TextArea fx:id="textAreaExchange1" layoutX="148.0" layoutY="484.0" onKeyReleased="#onWrite" prefHeight="36.0" prefWidth="120.0" />
+            <TextArea fx:id="textAreaExchange2" editable="false" layoutX="148.0" layoutY="531.0" prefHeight="36.0" prefWidth="120.0" />
+            <Button fx:id="callServerExchange" layoutX="474.0" layoutY="478.0" mnemonicParsing="false" onAction="#onClickCallServerExchange" prefHeight="36.0" prefWidth="112.0" text="Exchange rate" />
+            <TextField fx:id="textFieldErrorExchange" layoutX="283.0" layoutY="531.0" prefHeight="36.0" prefWidth="299.0" />
+            <Button fx:id="buttonStopClock" layoutX="474.0" layoutY="150.0" mnemonicParsing="false" onAction="#onClickStopClock" prefHeight="36.0" prefWidth="112.0" text="Stop clock" />
+            <Label fx:id="labelExchange" layoutX="95.0" layoutY="461.0" prefHeight="17.0" prefWidth="141.0" />
+            <TextField fx:id="textFieldCountThreadClient" layoutX="440.0" layoutY="42.0" prefHeight="25.0" prefWidth="77.0" />
+            <Label layoutX="440.0" layoutY="15.0" prefHeight="17.0" prefWidth="112.0" text="count thread Client" />
+            <CheckBox fx:id="checkBoxSubscribe" layoutX="474.0" layoutY="611.0" mnemonicParsing="false" onAction="#onClickCheck" text="Subscribe" />
+         </children>
+      </Pane>
+      <TextArea fx:id="textAreaSubscribe" layoutX="60.0" layoutY="616.0" prefHeight="62.0" prefWidth="397.0" promptText="Subscribe" wrapText="true" />
+      <Button fx:id="callServerSubscribe" layoutX="469.0" layoutY="635.0" mnemonicParsing="false" onAction="#onClickSubscribe" prefHeight="36.0" prefWidth="112.0" text="Subscribe" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,1041 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="StaffDemo:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="981ca4ae-b45c-4ac6-8019-4a421254e08f" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/StaffDemo$PayrollTest_createStaff.ic" NAME="PayrollTest.createStaff Coverage Results" MODIFIED="1526745457302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="StaffDemo" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="StaffDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/StaffDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="884">
+              <caret line="79" column="5" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#Payroll#0;class#Payroll#0" />
+                <element signature="method#calculateCostPersonnel#0;class#Payroll#0" />
+                <element signature="e#2552#2553#0" expanded="true" />
+                <element signature="e#2576#2577#0" expanded="true" />
+                <element signature="e#11383#11384#0" expanded="true" />
+                <element signature="e#11414#11415#0" expanded="true" />
+                <element signature="e#11462#11463#0" expanded="true" />
+                <element signature="e#11502#11503#0" expanded="true" />
+                <element signature="method#setCalculatedWorkTime#0;class#Engineer#0" />
+                <element signature="method#setProject#0;class#TeamLeader#0" />
+                <element signature="method#setEngineers#0;class#TeamLeader#0" />
+                <element signature="method#setHeadingBonus#0;class#TeamLeader#0" />
+                <element signature="method#setProject#0;class#ProjectManager#0" />
+                <element signature="method#setSubordinates#0;class#ProjectManager#0" />
+                <element signature="method#setHeadingBonus#0;class#ProjectManager#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ManagerTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ManagerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PayrollTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PayrollTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SeniorManagerTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SeniorManagerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TeamLeaderTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TeamLeaderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WorkProjectTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/WorkProjectTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="60" column="54" selection-start-line="60" selection-start-column="54" selection-end-line="60" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#setTesters#0;class#WorkProjectTest#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CollectConsolidatedList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/CollectConsolidatedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="method#getDataFromTeamLeader#0;class#CollectConsolidatedList#0" />
+                <element signature="method#getDataFromProjectManager#0;class#CollectConsolidatedList#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConsolidatedList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ConsolidatedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="31" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mainGUI.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mainGUI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Controllers.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Controllers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2193">
+              <caret line="160" column="6" selection-start-line="160" selection-start-column="6" selection-end-line="160" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#downloadFirstData#0;class#Controllers#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="JavaFXApplication" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>pesonal</find>
+      <find>createMapArrayData</find>
+      <find>getManager</find>
+      <find>setProject</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/PersonalTestTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/createArrayMarkers.java" />
+        <option value="$PROJECT_DIR$/src/test/java/EngineerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/WorkTime.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Heading.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Project.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CleanerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PrintConsole.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DriverTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TesterTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ProjectManagerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ProgrammerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PersonalTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/EmployeeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/g.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DigitClock.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/Controller.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/StaffGUI.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/GUI.fxml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/GUI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/StaffGUI.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/mainGUI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PopulateTableDataFirst.java" />
+        <option value="$PROJECT_DIR$/src/main/java/StaffDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CollectConsolidatedList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ConsolidatedList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Controllers.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ManagerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SeniorManagerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TeamLeaderTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PayrollTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WorkProjectTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="StaffDemo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-14" />
+    <option name="y" value="18" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="StaffDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StaffDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StaffDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StaffDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StaffDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StaffDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StaffDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StaffDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StaffDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StaffDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StaffDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StaffDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StaffDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StaffDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.39655173" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\idea\StaffDemo\src\main\java" />
+      <recent name="C:\idea\StaffDemo\src\main\resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="Employee" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\idea\StaffDemo\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.mainGUI">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="mainGUI" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mainGUI" />
+      <module name="StaffDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="All in StaffDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StaffDemo" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StaffDemo" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ManagerTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="WorkProjectTest.setManager" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StaffDemo" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WorkProjectTest" />
+      <option name="METHOD_NAME" value="setManager" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Application.mainGUI" />
+      <item itemvalue="JUnit.All in StaffDemo" />
+      <item itemvalue="JUnit.ManagerTest" />
+      <item itemvalue="JUnit.WorkProjectTest.setManager" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in StaffDemo" />
+        <item itemvalue="JUnit.WorkProjectTest.setManager" />
+        <item itemvalue="JUnit.ManagerTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="981ca4ae-b45c-4ac6-8019-4a421254e08f" name="Default" comment="" />
+      <created>1523440293246</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1523440293246</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="WorkProjectTest_calculateBonusOfProject - 2018.05.20 at 21h 59m 12s.xml">
+      <configuration name="WorkProjectTest.calculateBonusOfProject" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_StaffDemo - 2018.05.20 at 22h 07m 00s.xml">
+      <configuration name="All in StaffDemo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_StaffDemo - 2018.06.11 at 19h 23m 10s.xml">
+      <configuration name="All in StaffDemo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ManagerTest - 2018.06.11 at 19h 28m 12s.xml">
+      <configuration name="ManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_StaffDemo - 2018.06.11 at 19h 28m 35s.xml">
+      <configuration name="All in StaffDemo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_StaffDemo - 2018.06.11 at 19h 30m 12s.xml">
+      <configuration name="All in StaffDemo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_StaffDemo - 2018.06.11 at 19h 47m 14s.xml">
+      <configuration name="All in StaffDemo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WorkProjectTest_setManager - 2018.06.11 at 19h 48m 50s.xml">
+      <configuration name="WorkProjectTest.setManager" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WorkProjectTest_setManager - 2018.06.11 at 19h 51m 51s.xml">
+      <configuration name="WorkProjectTest.setManager" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_StaffDemo - 2018.06.11 at 19h 52m 14s.xml">
+      <configuration name="All in StaffDemo" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3291367" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3267974" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32843137" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32970452" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3267974" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3291367" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48955223" visible="true" weight="0.24357034" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" sideWeight="0.51044774" side_tool="true" weight="0.31570762" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3970588" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48955223" visible="true" weight="0.23600605" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3291367" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3267974" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3970588" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3291367" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32843137" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3267974" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32970452" />
+      <window_info id="Favorites" order="6" sideWeight="0.51044774" side_tool="true" weight="0.31570762" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/PersonalTest.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/PayrollTest.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/EmployeeTest.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/PersonalTest.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/PersonalTest.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/PayrollTest.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/TeamLeaderTest.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/TeamLeaderTest.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/WorkProjectTest.java</url>
+          <line>92</line>
+          <properties />
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/WorkProjectTest.java</url>
+          <line>90</line>
+          <properties />
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/WorkProjectTest.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/SeniorManagerTest.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/PrintConsole.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/CollectConsolidatedList.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="124" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="bonusTeamLeader" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>bonusTeamLeader</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/WorkTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.1.1/junit-jupiter-api-5.1.1.jar!/org/junit/jupiter/api/AssertEquals.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="141" selection-start-line="141" selection-end-line="141" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.1.1/junit-jupiter-api-5.1.1.jar!/org/junit/jupiter/api/Assertions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="145" selection-start-line="145" selection-end-line="145" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/StaffGUI.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.1.1/junit-platform-commons-1.1.1.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="199" selection-start-line="199" selection-end-line="199" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CleanerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zO1D92.tmp/SeniorManager.class" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zO654A.tmp/SeniorManager.class" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/DriverTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/EmployeeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TesterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ProjectManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="11" selection-start-line="22" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ProgrammerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PersonalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zO4D7.tmp/SeniorManager.class" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zO9272.tmp/StaffDemo.class" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zOAD3E.tmp/StaffDemo.class" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zO59CB.tmp/TeamLeader.class" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zOC6B0.tmp/WorkTimeAward.class" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zOD121.tmp/WorkTimeAward.class" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zO7BDB.tmp/TeamLeader.class" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zOEC0D.tmp/WorkTimeAward.class" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zO4142.tmp/HeadingAward.class" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zO615E.tmp/HeadingAward.class" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zO7F67.tmp/Employee.class" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zO9CB4.tmp/Employee.class" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zOCA1E.tmp/ProjectAward.class" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zO1745.tmp/StaffDemo.class" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zO43E3.tmp/StaffDemo.class" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zO814B.tmp/Manager.class" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zO8E9A.tmp/Manager.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/g.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/DigitClock.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/StaffGUI.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GUI.fxml" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GUI.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/StaffGUI.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PopulateTableDataFirst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PrintConsole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="27" column="61" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="1772" selection-start-line="1772" selection-end-line="1772" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mainGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ConsolidatedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CollectConsolidatedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="method#getDataFromTeamLeader#0;class#CollectConsolidatedList#0" />
+            <element signature="method#getDataFromProjectManager#0;class#CollectConsolidatedList#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controllers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2193">
+          <caret line="160" column="6" selection-start-line="160" selection-start-column="6" selection-end-line="160" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#downloadFirstData#0;class#Controllers#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/StaffDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="79" column="5" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Payroll#0;class#Payroll#0" />
+            <element signature="method#calculateCostPersonnel#0;class#Payroll#0" />
+            <element signature="e#2552#2553#0" expanded="true" />
+            <element signature="e#2576#2577#0" expanded="true" />
+            <element signature="e#11383#11384#0" expanded="true" />
+            <element signature="e#11414#11415#0" expanded="true" />
+            <element signature="e#11462#11463#0" expanded="true" />
+            <element signature="e#11502#11503#0" expanded="true" />
+            <element signature="method#setCalculatedWorkTime#0;class#Engineer#0" />
+            <element signature="method#setProject#0;class#TeamLeader#0" />
+            <element signature="method#setEngineers#0;class#TeamLeader#0" />
+            <element signature="method#setHeadingBonus#0;class#TeamLeader#0" />
+            <element signature="method#setProject#0;class#ProjectManager#0" />
+            <element signature="method#setSubordinates#0;class#ProjectManager#0" />
+            <element signature="method#setHeadingBonus#0;class#ProjectManager#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SeniorManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TeamLeaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PayrollTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WorkProjectTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="60" column="54" selection-start-line="60" selection-start-column="54" selection-end-line="60" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#setTesters#0;class#WorkProjectTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>StaffDemo:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.39655173" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.39655173" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.39655173" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.39655173" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>StaffDemo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:4.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.39655173" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
