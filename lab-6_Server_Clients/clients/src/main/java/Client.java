@@ -21,7 +21,7 @@ class Client extends Thread{
         this.socket=socket;
         this.gui=gui;
         start();
-
+//this.setDaemon(true);
     }
     @Override
     public void run(){
@@ -67,14 +67,14 @@ class Client extends Thread{
             if(marker.equals("subscribe")) {
 
                            fserver = in.readLine();
-
                           gui.textAreaSubscribe.setText(fserver);
-
+                           // return;
 
             }
             if(marker.equals("wisdom")) {
 
                 gui.textAreaWisdom.setText(fserver);
+                break;
             }
             if (marker.equalsIgnoreCase("exit")){
                 break;
@@ -92,6 +92,7 @@ class Client extends Thread{
                     gui.textFieldErrorExchange.setVisible(false);
 
                    }
+                   break;
                };
 
         }

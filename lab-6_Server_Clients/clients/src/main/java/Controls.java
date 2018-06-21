@@ -1,6 +1,7 @@
 import javafx.application.Application;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -8,6 +9,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
+import javafx.stage.WindowEvent;
 
 import java.io.IOException;
 import java.util.*;
@@ -16,7 +18,7 @@ public class Controls extends Application {
 private Controls controls;
 static ArrayList<Client> listClient=new ArrayList <>(0);
 ExchangeCalculate exchangeCalculate;
-private Thread threadClock;
+private Client threadClock;
   // private Thread secThread;
    private String hourCurrent;
    private String minCurrent;
@@ -107,6 +109,7 @@ private Thread threadClock;
 
     public void onClickSubscribe(){
         Client buf=new Client(textAreaServer.getText(), Integer.parseInt(textAreaSocket.getText()),this,"subscribe");
+
         listClient.add(buf);
 
             checkBoxSubscribe.setVisible(true);
@@ -127,8 +130,9 @@ private Thread threadClock;
         }
     }
     public void onClickCallServerExchange(){
+        Client buf=new Client(textAreaServer.getText(), Integer.parseInt(textAreaSocket.getText()),this,"exchange");
 
-        listClient.add(new Client(textAreaServer.getText(), Integer.parseInt(textAreaSocket.getText()),this,"exchange"));
+        listClient.add(buf);
         textFieldCountThreadClient.setText(Integer.toString(listClient.size()));
         callServerExchange.setVisible(false);
         textFieldErrorExchange.setVisible(false);
@@ -138,20 +142,19 @@ private Thread threadClock;
     }
     public void onClickCallServerWisdom() {
       // Client client=new Client(textAreaServer.getText(), Integer.parseInt(textAreaSocket.getText()),this,"wisdom");
-    listClient.add(new Client(textAreaServer.getText(), Integer.parseInt(textAreaSocket.getText()),this,"wisdom"));
+       Client buf= new Client(textAreaServer.getText(), Integer.parseInt(textAreaSocket.getText()),this,"wisdom");
+
+        listClient.add(buf);
     textFieldCountThreadClient.setText(Integer.toString(listClient.size()));
     }
 
     public void onClickCallServerTime()  {
 
     this.controls=this;
-     listClient.add(new Client(textAreaServer.getText(), Integer.parseInt(textAreaSocket.getText()), controls, "time"));
-      if(threadClock==null) {
-                Runnable client =()-> listClient.get(listClient.size()-1);
+    Client clTime=new Client(textAreaServer.getText(), Integer.parseInt(textAreaSocket.getText()), controls, "time");
 
-          Thread clTime = new Thread(client);
-          clTime.start();
-         // secThread.start();
+        listClient.add(clTime);
+
           textFieldCountThreadClient.setText(Integer.toString(listClient.size()));
          // buttonStopClock.setVisible(true);
           this.threadClock = clTime;
@@ -160,14 +163,10 @@ private Thread threadClock;
 
           if (textFieldInfo.equals("Server not found,connection is close")) {
               threadClock=null;
-             // secThread.interrupt();
               if (clTime.isInterrupted())
                   callServerTime.setVisible(true);
           }
-      }else if(threadClock.isInterrupted()){
-          threadClock.start();
-         // secThread.start();
-      }
+
 
     }
 
@@ -237,6 +236,13 @@ public Controls getGUI(){
         primaryStage.setTitle("java-lab-6");
         primaryStage.setScene(new Scene(root, 600, 800));
         primaryStage.show();
+        primaryStage.setOnCloseRequest(new EventHandler<WindowEvent>() {
+            public void handle(WindowEvent we) {
+                System.out.println("Stage of client is closing");
+
+                primaryStage.close();
+            }
+        });
     }
 
 }

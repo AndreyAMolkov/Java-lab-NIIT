@@ -93,9 +93,6 @@ private Thread headThread;
                Thread subscribe = new Thread(tS);
                subscribe.start();
 
-
-
-
            }
 
        }

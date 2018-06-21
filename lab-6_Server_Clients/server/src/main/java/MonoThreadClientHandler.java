@@ -46,11 +46,18 @@ static Socket clientDialog;
 
 // цикл ожидания сообщений от клиента
             frame.textAreaStatus.setText("Ожидаем сообщений");
+            int countTime=0;
 try {
     while (clientDialog != null) {
         if ((input = in.readLine()) != null) {
+           if(!input.equalsIgnoreCase("time"))
             frame.textAreaRequest.appendText(clientDialog.getInetAddress().toString()
                     + " " + "получено -" + input.toString() + " ");
+           else if(countTime==0) {
+               frame.textAreaRequest.appendText(clientDialog.getInetAddress().toString()
+                       + " " + "получено -" + input.toString() + " ");
+                countTime+=1;
+           }
 
             if (input.equalsIgnoreCase("time"))
                 out.println(LocalDateTime.now());
@@ -58,11 +65,12 @@ try {
             if (input.equalsIgnoreCase("subscribe")) {
                 MultiThreadServer.listSubscribe.add(this);
                 frame.textAreaCountOfSubscribers.setText(Integer.toString(MultiThreadServer.listSubscribe.size()));
+           //break;
             }
             if (input.equalsIgnoreCase("wisdom")) {
                 WisdomDemo wisdomDemo = new WisdomDemo("/wisdom.TXT");
                 out.println(wisdomDemo.getRandomWisdom());
-
+            break;
             }
             if (input.equalsIgnoreCase("exchange")) {
                 try {
@@ -71,6 +79,7 @@ try {
                 } catch (UnknownHostException e) {
                     out.println("Error");
                 }
+                break;
             }
             if (input.equalsIgnoreCase("exit")) {
                 break;
@@ -81,20 +90,17 @@ try {
 }catch (SocketException e){
  ;//empty
 }
-            out.close();
-            in.close();
+           // out.close();
+           // in.close();
 
+//            clientDialog.getOutputStream().close();
+//            clientDialog.getInputStream().close();
+//           clientDialog.close();
 
-
-            clientDialog.close();
-            clientDialog.getOutputStream().close();
-            clientDialog.getInputStream().close();
-            //server.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
-
-
+        Thread.interrupted();
     }
 
     public void sendMessage(String message){
@@ -108,8 +114,17 @@ try {
         out.close();
         try {
             in.close();
-           clientDialog.getInputStream().close();
+           try {
+               clientDialog.getInputStream().close();
+           }catch (SocketException e){
+               ;//empty
+           }
+           try{
             clientDialog.getOutputStream().close();
+        }catch (SocketException e){
+            ;//empty
+        }
+        if(!clientDialog.isClosed())
             clientDialog.close();
 
 
